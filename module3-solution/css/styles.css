@@ -1,1 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+.navbar-brand{
+	height: 70px;
+}
+.navbar-brand h1{
+	margin-top: 0px;
+}
+.reallytall{
+	height:1000px;
+	background-color: gray;
+}
+#content-row{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#menu > ul > li > a{
+	color: black;
+}
+#menu > ul > li > a:hover{
+	color: gray;
+}
+p, h3 {
+	color: black;
+}
 
+
+/* Extra small screens */
+@media (max-width: 767px){
+/* Dropdown Nav Menu */
+#menu {
+	background-color: red;
+}
+}
