@@ -72,7 +72,7 @@ p{
 	background-color: #E5D198;
 }
 
-/*-- Mobile first --*/
+/*-- Mobile --*/
 @media (max-width: 767px) {
 	.col-sm-1-1{
 		width: 100%;
